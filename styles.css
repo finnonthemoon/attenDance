@@ -1,0 +1,21 @@
+body {
+  width: 150px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+button {
+  width: 100%;
+  cursor: pointer;
+  background: #7021d2;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: grabbing;
+}
+
+button:hover {
+  cursor: grabbing;
+  background: #440099;
+}
