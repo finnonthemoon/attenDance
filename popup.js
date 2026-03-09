@@ -20,6 +20,7 @@ document.getElementById('revealBtn').addEventListener('click', async () => {
           const attendanceCode = codeElement.innerText;
           alert("Found Code: " + attendanceCode);
           
+
           const inputBox = document.querySelector('input[placeholder*="XX-XX-XX"]');
           if (inputBox) {
               inputBox.value = attendanceCode;
